@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="LYWavePaperView">
+        <attr name="waweCount" format="integer"/>
+        <attr name="waweWidth" format="integer"/>
+        <attr name="backgroundColor" format="color"/>
+        <attr name="mode">
+            <enum name="circle" value="-1"/>
+            <enum name="triangle" value="-2"/>
+        </attr>
+    </declare-styleable>
+
+    <declare-styleable name="LYDashBoardView">
+        <attr name="arcColor" format="color"/>
+        <attr name="arcWidth" format="dimension"/>
+        <attr name="android:text"/>
+        <attr name="tikeCount" format="integer"/>
+        <attr name="pointerColor" format="color"/>
+        <attr name="android:textSize"/>
+    </declare-styleable>
+
+    <declare-styleable name="LYCircularCD">
+        <attr name="cdColor" format="color" />
+    </declare-styleable>
+
+    <declare-styleable name="LYCircularRing">
+        <attr name="RingColor" format="color" />
+    </declare-styleable>
+</resources>
